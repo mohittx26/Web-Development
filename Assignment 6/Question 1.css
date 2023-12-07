@@ -33,3 +33,12 @@ external imported after internal -->
 External</div>
 </body>
 </html>
+style.css.external {
+color: blue;
+}
+.int__external {
+color: green;
+}
+.inline__internal__external {
+color: bisque;
+}
