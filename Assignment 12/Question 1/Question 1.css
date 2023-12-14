@@ -1,0 +1,49 @@
+/* Unset /B one target the anchor tag a change the color */
+nav a {
+  color: green;
+}
+
+/* color */ /* /B two target the first h2 tag and change the text and background */
+nav > h2 {
+  color: red;
+  background-color: snow;
+}
+
+/* /B three target the first p tag and change the text to red */
+ul + p {
+  color: red;
+}
+
+/* to red and                                         Cone target the anchor tag with attribute "href" and change color */
+/* remove the text underline */
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+
+/* "active".                            /C two Target the anchor tag with the attribute of class name */
+/* change the text color, and provide the text style properties with */
+/* underlining. */
+a[class="active"] {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* whose                                /C three */
+/* Target the anchor tag with the attribute of class target */
+/* value is self and change the background color. */
+a[target="_self"] {
+  background-color: grey;
+}
+
+/* D-1 target the last <p> tag and addd... after its value */
+p:last-child::after {
+  content: " - ";
+}
+li::marker{
+  color: green;
+}
+p:nth-child(even)::first-letter{
+  color: red;
+  font-size: 30px;
+}
