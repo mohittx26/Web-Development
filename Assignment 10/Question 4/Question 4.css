@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.grid-item:nth-child(7) {
+  background-color: #fff;
+  border: 2px solid #000;
+}
